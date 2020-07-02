@@ -77,7 +77,9 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a
       
     - name: copy smartdns
-      run: cd openwrt
+      run: |
+           chmod +x $DIY_P3_SH
+           cd openwrt
            $GITHUB_WORKSPACE/$DIY_P3_SH
 
     - name: Install feeds
