@@ -10,4 +10,3 @@
 
 #copy smartdns
 git clone https://github.com/ujincn/smartdns.git ./package/lean/smartdns
-git clone https://github.com/ujincn/luci-app-smartdns-compat.git ./feeds/luci/applications/luci-app-smartdns
