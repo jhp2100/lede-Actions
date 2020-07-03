@@ -9,4 +9,4 @@
 #=============================================================
 
 #copy smartdns
-git clone https://github.com/ujincn/smartdns.git ./package/lean/smartdns
+#git clone https://github.com/ujincn/smartdns.git ./package/lean/smartdns
