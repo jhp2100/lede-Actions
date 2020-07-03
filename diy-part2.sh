@@ -12,4 +12,4 @@
 #sed -i 's/192.168.1.1/192.168.1.2/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/LEDE/g' package/base-files/files/bin/config_generate
 sed -i 's/set luci.main.mediaurlbase/#set luci.main.mediaurlbase/g' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
-sed -i 's/root::0:0:99999:7:::/root:$1$IEvEt8fV$wzZBKwxpDYxZkMn/14NfW.:0:0:99999:7:::/g' package/base-files/files/etc/shadow
+#sed -i 's/root::0:0:99999:7:::/root:$1$IEvEt8fV$wzZBKwxpDYxZkMn/14NfW.:0:0:99999:7:::/g' package/base-files/files/etc/shadow
