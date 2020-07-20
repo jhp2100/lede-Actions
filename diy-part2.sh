@@ -13,5 +13,3 @@
 sed -i 's/OpenWrt/LEDE/g' package/base-files/files/bin/config_generate
 sed -i 's/set luci.main.mediaurlbase/#set luci.main.mediaurlbase/g' feeds/luci/themes/luci-theme-bootstrap/root/etc/uci-defaults/30_luci-theme-bootstrap
 sed -i "/CYXluq4wUazHjmCDBCqXF/d" package/lean/default-settings/files/zzz-default-settings
-sed -i 's/ucidef_set_interfaces_lan_wan "eth1 eth2" "eth0"/ucidef_set_interfaces_lan_wan "eth0"/g' target/linux/x86/base-files/etc/board.d/02_network
-sed -i 's/ucidef_set_interface_lan "eth0 eth1"/ucidef_set_interface_lan "eth1"/g' target/linux/x86/base-files/etc/board.d/02_network
