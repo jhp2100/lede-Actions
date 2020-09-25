@@ -17,4 +17,4 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 git clone https://github.com/rufengsuixing/luci-app-adguardhome ./package/lean/luci-app-adguardhome
 git clone https://github.com/ujincn/smartdns.git ./package/lean/smartdns
 git clone https://github.com/ujincn/luci-app-smartdns-compat.git ./package/lean/luci-app-smartdns
-git clone https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash ./package/luci-app-openclash
+wget https://github.com/vernesong/OpenClash/tree/master/luci-app-openclash ./package/luci-app-openclash
